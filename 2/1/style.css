@@ -1,0 +1,34 @@
+header {
+  height: 60px;
+}
+
+footer {
+  height: 60px;
+}
+
+h1 {
+  font-size: 26px;
+  color: #0f0f0f;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+#sim article {
+  background-color: #cecece;
+}
+
+#sim h2, p {
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+#sim article:not(:last-child) {
+  margin-bottom: 16px;
+}
